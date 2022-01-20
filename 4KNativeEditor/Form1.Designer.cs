@@ -92,7 +92,7 @@ namespace _4KNativeEditor
             this.groupBox1.Size = new System.Drawing.Size(305, 100);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Set Resolution:";
+            this.groupBox1.Text = "Set Resolution v2:";
             // 
             // Form1
             // 

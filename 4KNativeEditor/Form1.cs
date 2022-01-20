@@ -55,8 +55,13 @@ namespace _4KNativeEditor
                 sr.WriteByte((byte)WidthpartOne);
                 sr.Seek(0x70447D, SeekOrigin.Begin);
                 sr.WriteByte((byte)WidthpartTwo);
-               
 
+
+                sr.Seek(0x71D318, SeekOrigin.Begin);
+                sr.WriteByte((byte)WidthpartOne);
+                sr.Seek(0x71D319, SeekOrigin.Begin);
+                sr.WriteByte((byte)WidthpartTwo);
+                //
 
 
 
@@ -64,7 +69,12 @@ namespace _4KNativeEditor
                 sr.WriteByte((byte)HeightpartOne);
                 sr.Seek(0x704481, SeekOrigin.Begin);
                 sr.WriteByte((byte)HeightpartTwo);
-               
+
+                sr.Seek(0x71D31C, SeekOrigin.Begin);
+                sr.WriteByte((byte)HeightpartOne);
+                sr.Seek(0x71D31D, SeekOrigin.Begin);
+                sr.WriteByte((byte)HeightpartTwo);
+
 
                 sr.Close();
 
